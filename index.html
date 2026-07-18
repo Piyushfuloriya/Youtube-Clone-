@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="/controllers/controller.js" type="module"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="left">
+        <i class="fa-solid fa-bars"></i>
+
+        <div class="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+          />
+          <span>IN</span>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="searchBox">
+          <input type="text" placeholder="Search" />
+          <button id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <button class="mic">
+          <i class="fa-solid fa-microphone"></i>
+        </button>
+      </div>
+
+      <div class="right">
+        <button class="create">
+          <i class="fa-solid fa-plus"></i>
+          Create
+        </button>
+
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+
+        <div class="profile">P</div>
+      </div>
+    </nav>
+    <main>
+      <aside class="sidebar">
+        <div class="menu">
+          <div class="item active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </div>
+
+          <div class="item">
+            <i class="fa-solid fa-play"></i>
+            <span>Shorts</span>
+          </div>
+        </div>
+
+        <hr />
+
+        <h3>Subscriptions</h3>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=10" />
+          <span>Brain Mentors</span>
+        </div>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=11" />
+          <span>Total Gaming</span>
+        </div>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=12" />
+          <span>vlogger</span>
+        </div>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=13" />
+          <span>Web Dev</span>
+        </div>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=14" />
+          <span>DSA</span>
+        </div>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=15" />
+          <span>Piyush Garg</span>
+        </div>
+
+        <div class="channel">
+          <img src="https://i.pravatar.cc/40?img=16" />
+          <span>Algorithm</span>
+        </div>
+
+        <div class="show-more">
+          <i class="fa-solid fa-chevron-down"></i>
+          <span>Show more</span>
+        </div>
+
+        <hr />
+
+        <h3>You</h3>
+
+        <div class="item2">
+          <i class="fa-regular fa-user"></i>
+          <span>Your channel</span>
+        </div>
+
+        <div class="item2">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <span>History</span>
+        </div>
+
+        <div class="item2">
+          <i class="fa-solid fa-list"></i>
+          <span>Playlists</span>
+        </div>
+
+        <div class="item2">
+          <i class="fa-regular fa-clock"></i>
+          <span>Watch Later</span>
+        </div>
+
+        <div class="item2">
+          <i class="fa-regular fa-thumbs-up"></i>
+          <span>Liked videos</span>
+        </div>
+
+        <div class="item2">
+          <i class="fa-solid fa-video"></i>
+          <span>Your videos</span>
+        </div>
+        <hr />
+        <h3>Explore</h3>
+
+        <div class="channel">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span>Shopping</span>
+        </div>
+
+        <div class="channel">
+          <i class="fa-solid fa-music"></i>
+          <span>Music</span>
+        </div>
+
+        <div class="channel">
+          <i class="fa-solid fa-clapperboard"></i>
+          <span>Films</span>
+        </div>
+        <div class="show-more">
+          <i class="fa-solid fa-chevron-down"></i>
+          <span>Show more</span>
+        </div>
+
+        <hr />
+      </aside>
+      <section>
+        <div id="content"></div>
+      </section>
+    </main>
+  </body>
+</html>
