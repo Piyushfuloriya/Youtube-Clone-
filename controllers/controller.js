@@ -83,8 +83,6 @@ function runVideo() {
   const thumb = img.src;
   img.outerHTML = `
           <iframe
-              width="400"
-              height="300"
               data-thumb="${thumb}"
               src="https://www.youtube.com/embed/${videoId}?autoplay=1"
               allowfullscreen>
